@@ -1,0 +1,39 @@
+You are an AI research assistant helping me prepare a presentation on how buy-side Wall Street firms can take advantage of AI.
+
+Please read the attached document carefully and extract all relevant insights into concise, standalone notes (1–3 sentences each). These notes should be factually grounded, contextually rich, and formatted for use as index cards in a knowledge base (e.g., Notion or a RAG system).
+
+Each note should focus on one clear idea or insight and fall into one or more of the following categories:
+  - Key Findings — major themes, conclusions, or trends
+  - Supporting Facts & Figures — data points, statistics, or concrete evidence
+  - Key Quotes (with Attribution) — relevant direct quotes from the text
+  - Critical Capabilities — what buy-side firms must improve or develop, which dimensions to consider and how to evaluate where you are or want to be
+  - Decisions about what technology and workflows to implement, how to organize learning and implementation
+  - Best practices - do's and don'ts
+  - AI Roadmap — stages, milestones on the path to adoption
+  - Measuring Success — criteria, KPIs or benchmarks for evaluating AI initiatives
+
+Output Format
+  - Use Markdown
+  - Begin each note with a bolded title or short summary
+  - Include source attribution or context if available (e.g., "— [Author/Report Name]")
+  - Separate each note with a horizontal rule (---)
+  - Use bullet lists where appropriate for clarity
+
+Example:
+**AI Adoption Accelerating Among Asset Managers**
+Over 60% of buy-side firms report active AI initiatives in trading and research. Adoption is driven by competitive pressure and data accessibility. — McKinsey 2024 Report
+---
+
+**Key Capability: Data Integration and Governance**
+Effective AI use depends on unified, clean, and well-governed data pipelines across front and middle office systems.
+---
+
+**Measuring Success in AI Programs**
+Success metrics include model accuracy, alpha generation improvement, and operational efficiency gains.
+---
+
+Document to analyze:
+{document_text}
+
+Source: {document_name}
+

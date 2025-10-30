@@ -99,12 +99,26 @@ These skills enable granular organization of extracted knowledge, with each insi
 - `kb2/` - Individual note files split from kb/ (1,843 files)
 - `notes.md` - All notes concatenated into a single file with `---` separators
 
+## Extraction Prompt
+
+The research extraction prompt is defined in `prompt.txt`. It instructs the AI to extract insights organized into these categories:
+- **Key Findings** — Major themes, conclusions, or trends
+- **Supporting Facts & Figures** — Data points, statistics, or concrete evidence
+- **Key Quotes (with Attribution)** — Relevant direct quotes from sources
+- **Critical Capabilities** — What buy-side firms must improve or develop
+- **Decisions** — Technology and workflow implementation choices
+- **Best Practices** — Do's and don'ts
+- **AI Roadmap** — Stages and milestones on the path to adoption
+- **Measuring Success** — Criteria, KPIs or benchmarks for evaluating AI initiatives
+
+The prompt produces standalone notes (1-3 sentences each) formatted as index cards with source attribution.
+
 ## Customization
 
 Edit `extract_knowledge.py` to modify:
 - `GEMINI_MODEL`: Change the model (currently using gemini-2.0-flash-exp)
 - `PDF_DIR`, `HTML_DIR`, `TXT_DIR`, `KB_DIR`: Change directory locations
-- `RESEARCH_PROMPT`: Adjust the extraction prompt and categories
+- `RESEARCH_PROMPT`: Adjust the extraction prompt and categories (or reference `prompt.txt`)
 - Temperature and token settings in `setup_langchain_pipeline()`
 
 ## Benefits of Two-Stage Pipeline
@@ -127,3 +141,12 @@ Source research documents are available in [this Google Drive folder](https://dr
 - **Consolidated knowledge base** in `notes.md` (532 KB)
 - **Custom Claude Code skills** for knowledge management
 - **Complete automation** from source documents to queryable knowledge base
+
+## Custom GPT
+
+A [custom GPT for AI Strategy Research](https://chatgpt.com/g/g-6900e2b7897481919e462a13c5678ad3-dv-strategy-research) has been created with:
+- Raw article files from the research collection
+- Summarized notes from `notes.md`
+- Optimized for querying insights on AI adoption in financial services
+
+This provides an interactive way to explore the research and get answers tailored to specific questions about AI strategy for hedge funds and asset managers.
