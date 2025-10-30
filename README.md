@@ -82,11 +82,17 @@ Usage:
 
 ### split-all-kb-notes
 Processes all markdown files in the `kb/` directory and splits each into individual notes in `kb2/`.
+This might need some cleaning up.
 
 Usage:
 ```bash
 /split-all-kb-notes
 ```
+
+To run a skill, you can just tell Claude Code, use skill X to do y.
+you can also ask 'what skills are available?'
+and say e.g.:
+Skill(split-all-kb-notes)
 
 These skills enable granular organization of extracted knowledge, with each insight as a separate file for easier querying and management.
 
