@@ -94,6 +94,10 @@ you can also ask 'what skills are available?'
 and say e.g.:
 Skill(split-all-kb-notes)
 
+[Skills in Claude Code are documented here](https://docs.claude.com/en/docs/claude-code/skills)
+
+[Article](https://support.claude.com/en/articles/12580051-teach-claude-your-way-of-working-using-skills)
+
 These skills enable granular organization of extracted knowledge, with each insight as a separate file for easier querying and management.
 
 ## Knowledge Base Structure
