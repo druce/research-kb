@@ -1,0 +1,4 @@
+**Source:** `The Leader’s Guide to Transforming with AI _ BCG`
+
+**Transformation Requires More Than Tools**
+Achieving AI transformation demands behavioral change, a people-centric focus, and sustained investment in foundational capabilities. — BCG
